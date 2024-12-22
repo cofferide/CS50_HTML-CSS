@@ -1,0 +1,127 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(40, 40, 40);
+}
+
+.center {
+    text-align: center;
+    margin: 10%;
+}
+
+.top_right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size:small;
+}
+
+.top_right a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.top_right a:hover{
+    color: rgb(128, 217, 255);
+    text-decoration: underline;
+}
+
+.search_bar{
+    width: 450px;
+    height: 30px;
+    background-color: #4e5156;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+}
+
+.search_bar:hover{
+    background-color: #61646a;
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.search_button , .lucky, .img_button{
+    margin-inline-end: 5px;
+    background-color:#303134;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.adv_button {
+    margin-left: 660px;
+    margin-top: 150px;
+    background-color:#8ab4f8;
+    color: black;
+    border: 1px solid transparent;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search_button:hover , .lucky:hover, .img_button:hover{
+    border: 1px solid rgb(107, 107, 107);
+}
+
+.adv_button:hover{
+    background-color: #adccfd;
+}
+
+.margin_form {
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.adv {
+    color: rgb(255, 119, 119);
+    font-size: 20px;
+}
+
+.find {
+    padding-top: 5%;
+    color: white;
+}
+
+.form_adv {
+    height: 430px;
+}
+
+label {
+    width: 180px;
+    padding-top: 15px;
+    margin-top: 4px;
+    display: inline-block;
+    text-align: left;
+    font-size: 13px;
+    color: #8d8d8d;
+}
+
+.adv_input {
+    height: 20px;
+    width: 600px;
+    padding: 3px;
+    margin: 4px;
+    border: 1px solid #8b8b8b;
+    background-color: transparent;
+}
+
+.github {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.github a{
+    text-decoration: none;
+    color: rgb(134, 179, 179);
+    font-size: 14px;
+}
